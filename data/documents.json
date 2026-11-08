@@ -1,0 +1,30 @@
+[
+  {
+    "_id": 201,
+    "title": "Week 5 Assessment",
+    "collaborators": [
+      {
+        "user_id": 1,
+        "username": "Anastasia"
+      },
+      {
+        "user_id": 2,
+        "username": "John"
+      }
+    ]
+  },
+  {
+    "_id": 202,
+    "title": "Week 4 Assessment",
+    "collaborators": [
+      {
+        "user_id": 3,
+        "username": "Amanda"
+      },
+      {
+        "user_id": 4,
+        "username": "Terry"
+      }
+    ]
+  }
+]
