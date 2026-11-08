@@ -1,5 +1,5 @@
 // Select the database
-db = db.getSiblingDB("DocumentEditorDB");
+db = db.getSiblingDB("DocEdits");
 
 // 1. Retrieve a document and its collaborators
 db.documents.find({
