@@ -1,0 +1,32 @@
+// Select the database
+db = db.getSiblingDB("DocumentEditorDB");
+
+// 1. Retrieve a document and its collaborators
+db.documents.find({
+    "_id": 201
+});
+
+// 2. Retrieve all edits of a specific document
+db.edits.find({
+    "document_id": 201
+});
+
+// 3. Retrieve another document and its collaborators
+db.documents.find({
+    "_id": 202
+});
+
+// 4. Retrieve all edits of another document
+db.edits.find({
+    "document_id": 202
+});
+
+// 5. Find documents where Terry is a collaborator
+db.documents.find({
+    "collaborators.username": "Terry"
+});
+
+// 6. Create an index on document_id
+db.edits.createIndex({
+    "document_id": 1
+});
